@@ -1,5 +1,5 @@
 project:
-  name: quickstart-sudo-consultants-serverless-wordpress
+  name: cfn-ps-sudo-consultants-serverless-wordpress
   owner: saif.ali@sudoconsultants.com
   package_lambda: false
   shorten_stack_name: true
