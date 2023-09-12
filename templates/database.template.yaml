@@ -170,7 +170,7 @@ Resources:
       Engine: aurora-mysql
       EngineVersion: '5.7'
       EngineMode: serverless
-      StorageEncrypted: 'true'
+      StorageEncrypted: true
       DatabaseName:
         Ref: DBName
       DBClusterIdentifier:
