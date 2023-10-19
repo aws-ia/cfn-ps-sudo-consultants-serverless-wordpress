@@ -123,7 +123,7 @@ Metadata:
 Parameters:
   QSS3BucketName:
     Type: String
-    Default: aws-ia-us-east-1
+    Default: aws-ia
     Description: Alphanumeric String which identifies the S3 bucket name for the Quick Start assets. It's the bucket to store the copy of the Quick Start assets if you decided to customize or extend them
       for your own use.
     AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
@@ -333,7 +333,7 @@ Conditions:
   UsingDefaultBucket:
     Fn::Equals:
       - Ref: QSS3BucketName
-      - aws-ia-us-east-1
+      - aws-ia
   EnableWAF:
     Fn::Or:
       - Fn::Equals:
